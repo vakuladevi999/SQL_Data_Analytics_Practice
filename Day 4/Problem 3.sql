@@ -1,4 +1,4 @@
--- Q:-
+-- Q:-Find customers who placed orders in at least 4 consecutive months without missing a month.
 
 -- Creating Orders Table
 CREATE TABLE Orders
