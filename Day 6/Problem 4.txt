@@ -1,0 +1,21 @@
+-- Q:- How to find the duplicate emails in the Emails table?
+
+-- Creting Emails table
+Create Table Emails
+(EmployeeID INT,Email VARCHAR(30))
+
+-- Insertin values into Emails table
+INSERT INTO Emails VALUES
+(1,'raju1215@gmail.com'),
+(2,'raju1215@gmail.com'),
+(3,'pavithra555@gmail.com'),
+(4,'vyshnav444@gmail.com'),
+(5,'chandraki4848@gmail.com');
+
+-- Ans:-
+SELECT
+	Email,
+	COUNT(*) AS EmailCount
+FROM Emails
+GROUP BY Email
+HAVING COUNT(*) > 1
