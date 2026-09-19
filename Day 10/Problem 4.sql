@@ -1,6 +1,3 @@
--- Q:- Count all employees who joined in 2023.
-
--- Creating Customers_ table
 -- Q:- Find all employees hired on weekends.
 
 -- Creating Employees_ table
